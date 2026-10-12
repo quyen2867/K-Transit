@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.moved-aside
+*.hmap
+
+# Binary / Media (dev screenshots)
+*.bin
+*.jpeg
+# Dev screenshots (root only, not IMG/ folder)
+/[0-9].png
+/IMG_*.png
+
+# Archive exports
+K-Transit 2026-*/
+
+# Misc
+*.log
